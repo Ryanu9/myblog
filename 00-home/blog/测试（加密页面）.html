@@ -1,0 +1,209 @@
+<!DOCTYPE html> <html lang="zh-cn"><head>
+<title>测试（加密页面）</title>
+<base href="../..">
+<meta name="pathname" content="00-home/blog/测试（加密页面）.html">
+<meta name="description" content="C1trus - 测试（加密页面）">
+<meta property="og:title" content="测试（加密页面）">
+<meta property="og:description" content="C1trus - 测试（加密页面）">
+<meta property="og:type" content="website">
+<meta property="og:url" content="00-home/blog/测试（加密页面）.html">
+<meta property="og:image" content="undefined">
+<meta charset="UTF-8"><meta property="og:site_name" content="C1trus"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.jpg"><link rel="preload" href="site-lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/snippets.css"></noscript><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="stylesheet" href="site-lib/styles/theme.css"><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/supported-plugins.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:45em;--line-width-adaptive:45em;--file-line-width:45em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px;--navbar-height:40px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(1em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:1px 1em;width:100%}.website-navbar{position:fixed;top:0;left:0;right:0;width:100%;height:var(--navbar-height,40px);display:flex;align-items:center;justify-content:space-between;padding:0 2rem;background-color:var(--background-primary);border-bottom:1px solid var(--background-modifier-border);z-index:1000;box-shadow:0 2px 8px rgba(0,0,0,.12)}.navbar-links{display:flex;gap:1.25rem;align-items:center}.navbar-link{font-size:1rem;font-weight:700;text-decoration:none;color:var(--text-normal);padding:0 16px;white-space:nowrap}.navbar-link:hover{color:var(--text-accent);text-decoration:underline}body:has(.website-navbar){padding-top:var(--navbar-height,40px)}body:has(.website-navbar) .sidebar-topbar{top:calc(var(--navbar-height,40px) + var(--sidebar-margin))}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.notice-container{position:absolute;top:1rem;right:1rem;z-index:1000;display:flex;flex-direction:column;gap:.5rem;align-items:flex-end;pointer-events:none}.notice-container .notice{pointer-events:auto}body:has(.website-navbar) .notice-container{top:calc(1rem + var(--navbar-height,40px))}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script><script data-vercel-analytics="init">window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script><script data-vercel-analytics="loader" src="/_vercel/insights/script.js" defer=""></script><script data-vercel-speed="init">window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };</script><script data-vercel-speed="loader" src="/_vercel/speed-insights/script.js" defer=""></script></head><body class="publish css-settings-manager mod-windows is-hidden-frameless styled-scrollbars show-inline-title show-ribbon show-view-header minimal-default-light minimal-default-dark minimal-line-nums minimal-status-off h1-l zoom-off minimal-strike-lists sidebar-tabs-default minimal-unstyled-tags is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="main"><div id="navbar"><nav id="website-navbar" class="website-navbar" style="height: 40px; --navbar-height: 40px;"><div class="navbar-links"><a class="navbar-link" href="https://www.google.com/" target="_blank" rel="noopener noreferrer">google</a><a class="navbar-link" href="https://obsidian.md/" target="_blank" rel="noopener noreferrer">obsidian</a><a class="navbar-link" href="https://github.com/Ryanu9" target="_blank" rel="noopener noreferrer">mygithub</a></div><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></nav></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-icon" aria-label="Open search modal">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+	<circle cx="11" cy="11" r="8"></circle>
+	<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+</svg></div><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Ctrl+K"><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf">
+<div class="password-lock" id="password-lock-container">
+    <section class="password-lock__panel">
+        <svg class="password-lock__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+        </svg>
+        <h2 class="password-lock__title">此内容已加密</h2>
+        <p class="password-lock__description">如需密码请联系作者</p>
+        
+        <div class="password-lock__form">
+            <input type="password" id="page-password-input" class="password-lock__input" placeholder="请输入密码" autocomplete="new-password">
+            
+            <div class="password-lock__remember-wrapper" style="display:flex; align-items:center; gap:0.5em; width:100%">
+                <input type="checkbox" id="remember-password">
+                <label for="remember-password" style="cursor:pointer">记住密码</label>
+            </div>
+            
+            <button type="button" id="unlock-button" class="password-lock__submit">解锁</button>
+            <div id="password-error" class="password-lock__error" style="color:var(--text-error); display:none"></div>
+        </div>
+    </section>
+<div class="password-lock__giscus" style="margin-top: 3rem; width: 100%; max-width: var(--file-line-width);"><div class="giscus"></div><script src="https://giscus.app/client.js" data-repo="Ryanu9/Giscus" data-repo-id="R_kgDOOJuV5A" data-category="Announcements" data-category-id="DIC_kwDOOJuV5M4CoHqF" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" data-loading="lazy" crossorigin="anonymous" async=""></script></div></div>
+</div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="00-home/blog/测试（加密页面）.html#测试（加密页面）_0" data-path="#测试（加密页面）_0"><div class="tree-item-inner heading-link" heading-name="测试（加密页面）">测试（加密页面）</div></a><div class="tree-item-children"></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div><script data-unlock-script="true">
+// 注意：这段代码是在用户的浏览器中运行的
+(function() {
+    const encryptedData = {"salt":"+G2qE3pGrSieTff/30gSsQ==","iv":"YnyPCVvlAd1PORKE","authTag":"jVv+cwBy6WrcGRAC0vVyYQ==","encrypted":"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"}; 
+    const DOM_IDS = {"PASSWORD_INPUT":"page-password-input","UNLOCK_BUTTON":"unlock-button","ERROR_MSG":"password-error","CONTENT_CONTAINER":"center-content","REMEMBER_CHECKBOX":"remember-password"};
+    const translations = {"title":"此内容已加密","description":"请输入密码以查看内容","rememberPassword":"记住密码","unlock":"解锁","inputPlaceholder":"请输入密码","invalidPassword":"密码错误或数据损坏"};
+    
+    function base64ToArrayBuffer(base64) {
+        const binaryString = atob(base64);
+        const bytes = new Uint8Array(binaryString.length);
+        for (let i = 0; i < binaryString.length; i++) {
+            bytes[i] = binaryString.charCodeAt(i);
+        }
+        return bytes.buffer;
+    }
+    
+    async function decrypt(password, data) {
+        const salt = base64ToArrayBuffer(data.salt);
+        const iv = base64ToArrayBuffer(data.iv);
+        const authTag = base64ToArrayBuffer(data.authTag);
+        const encryptedContent = base64ToArrayBuffer(data.encrypted);
+        
+        const encryptedWithTag = new Uint8Array(encryptedContent.byteLength + authTag.byteLength);
+        encryptedWithTag.set(new Uint8Array(encryptedContent), 0);
+        encryptedWithTag.set(new Uint8Array(authTag), encryptedContent.byteLength);
+        
+        const passwordMaterial = await crypto.subtle.importKey(
+            'raw', 
+            new TextEncoder().encode(password), 
+            { name: 'PBKDF2' }, 
+            false, 
+            ['deriveKey']
+        );
+        
+        const key = await crypto.subtle.deriveKey(
+            {
+                name: 'PBKDF2',
+                salt: salt,
+                iterations: 100000,
+                hash: 'SHA-256'
+            },
+            passwordMaterial,
+            { name: 'AES-GCM', length: 256 },
+            false,
+            ['decrypt']
+        );
+        
+        const decryptedBuffer = await crypto.subtle.decrypt(
+            { name: 'AES-GCM', iv: iv, tagLength: 128 },
+            key,
+            encryptedWithTag
+        );
+        
+        return new TextDecoder().decode(decryptedBuffer);
+    }
+    
+    function hideTOC() {
+        const outline = document.querySelector('#outline');
+        if (outline) {
+            outline.style.setProperty('display', 'none', 'important');
+            outline.setAttribute('data-toc-hidden', 'true');
+        }
+    }
+
+    async function attemptUnlock() {
+        const inputEl = document.getElementById(DOM_IDS.PASSWORD_INPUT);
+        const errorEl = document.getElementById(DOM_IDS.ERROR_MSG);
+        const password = inputEl.value.trim();
+        if (!password) { errorEl.textContent = translations.inputPlaceholder; errorEl.style.display = 'block'; return; }
+        
+        try {
+            const htmlContent = await decrypt(password, encryptedData);
+            
+            if (window.__tocHideObserver) {
+                window.__tocHideObserver.disconnect();
+                delete window.__tocHideObserver;
+            }
+
+            const container = document.getElementById(DOM_IDS.CONTENT_CONTAINER);
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+            container.innerHTML = tempDiv.innerHTML;
+            
+            Array.from(container.querySelectorAll('script')).forEach(oldScript => {
+                const newScript = document.createElement('script');
+                Array.from(oldScript.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value));
+                if (oldScript.src) newScript.src = oldScript.src;
+                else newScript.textContent = oldScript.textContent;
+                oldScript.parentNode.replaceChild(newScript, oldScript);
+            });
+            
+            const rememberEl = document.getElementById(DOM_IDS.REMEMBER_CHECKBOX);
+            const storageKey = 'doc-password-' + window.location.pathname;
+            if (rememberEl && rememberEl.checked) {
+                localStorage.setItem(storageKey, password);
+            }
+            
+            const outline = document.querySelector('#outline');
+            if (outline) {
+                outline.style.removeProperty('display');
+                outline.removeAttribute('data-toc-hidden');
+            }
+            
+            if (window.ObsidianSite && window.ObsidianSite.document) {
+                window.ObsidianSite.document.documentEl = container.querySelector('.obsidian-document') || container;
+                
+                // 触发全局加载回调，确保所有 feature (如 tags) 被正确初始化并显示
+                window.ObsidianSite.triggerOnDocumentLoad(window.ObsidianSite.document);
+                
+                // 执行文档类自身的初始化
+                await window.ObsidianSite.document.postLoadInit();
+            }
+
+            // 发送解密成功事件
+            document.dispatchEvent(new CustomEvent('contentDecrypted'));
+            
+        } catch (e) {
+            console.error(e);
+            errorEl.textContent = translations.invalidPassword;
+            errorEl.style.display = 'block';
+            inputEl.value = '';
+            inputEl.focus();
+        }
+    }
+    
+    if (!document.getElementById('password-lock-style')) {
+        const style = document.createElement('style');
+        style.id = 'password-lock-style';
+        style.textContent = `
+            #password-lock-container { width: 100%; height: 100%; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 2rem; padding-top: min(10vh, 5rem); text-align: center; overflow-y: auto; box-sizing: border-box; }
+            .password-lock { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; width: 100%; padding: 0; text-align: center; box-sizing: border-box; flex-shrink: 0; }
+            .password-lock__panel { background: var(--background-secondary); padding: 2.5rem; border-radius: 12px; border: 1px solid var(--divider-color); box-shadow: var(--shadow-l); max-width: 400px; width: 100%; box-sizing: border-box; margin: 0 auto; flex-shrink: 0; }
+            .password-lock__icon { width: 48px; height: 48px; margin-bottom: 1rem; color: var(--text-normal); stroke: currentColor; fill: none; }
+            .password-lock__title { margin: 0 0 0.5rem 0; font-size: 1.5rem; }
+            .password-lock__description { color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.9rem; }
+            .password-lock__form { display: flex; flex-direction: column; gap: 1rem; }
+            .password-lock__input { padding: 0.8rem; border-radius: 6px; border: 1px solid var(--divider-color); background: var(--background-primary); color: var(--text-normal); width: 100%; }
+            .password-lock__submit { padding: 0.8rem; border-radius: 6px; border: none; background: var(--interactive-accent); color: var(--text-on-accent); cursor: pointer; font-weight: bold; transition: opacity 0.2s; }
+            .password-lock__submit:hover { opacity: 0.9; }
+            .password-lock__error { font-size: 0.85rem; margin-top: 0.5rem; }
+        `;
+        document.head.appendChild(style);
+    }
+
+    function init() {
+        const unlockBtn = document.getElementById(DOM_IDS.UNLOCK_BUTTON);
+        if(unlockBtn) unlockBtn.addEventListener('click', attemptUnlock);
+        const passInput = document.getElementById(DOM_IDS.PASSWORD_INPUT);
+        if(passInput) passInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') attemptUnlock(); });
+        
+        const storageKey = 'doc-password-' + window.location.pathname;
+        const savedPass = localStorage.getItem(storageKey);
+        if (savedPass && passInput) { passInput.value = savedPass; setTimeout(attemptUnlock, 100); }
+        
+        hideTOC();
+
+        if (window.__tocHideObserver) window.__tocHideObserver.disconnect();
+        const observer = new MutationObserver(hideTOC);
+        observer.observe(document.body, { childList: true, subtree: true });
+        window.__tocHideObserver = observer;
+    }
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+    else init();
+})();
+</script></body></html>

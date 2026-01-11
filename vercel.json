@@ -1,0 +1,17 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "routes": [
+        {
+            "src": "^/$",
+            "dest": "/00-home/blog/webpage-html-export-pro.html"
+        },
+        {
+            "handle": "filesystem"
+        },
+        {
+            "src": "/(.*)",
+            "status": 404,
+            "dest": "/404/"
+        }
+    ]
+}
